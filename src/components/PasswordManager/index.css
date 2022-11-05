@@ -1,0 +1,234 @@
+.app-container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  min-height: 100vh;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .app-container {
+    padding-left: 30px;
+  }
+}
+.password-manager-logo {
+  width: 150px;
+  padding-bottom: 30px;
+}
+.bg-container {
+  background-color: #5763a5;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 768px) {
+  .bg-container {
+    min-width: 330px;
+  }
+}
+.password-manager-container {
+  background-color: #454f84;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin-right: 150px;
+}
+@media screen and (max-width: 768px) {
+  .password-manager-container {
+    width: 250px;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 15px;
+  }
+}
+.input-container {
+  display: flex;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+.website-icon {
+  width: 40px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #ffffff;
+}
+.input {
+  height: 40px;
+  width: 350px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  outline: none;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-button {
+  height: 35px;
+  width: 80px;
+  background-color: #0b69ff;
+  font-size: 13px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 8px;
+}
+.password-manager-img {
+  width: 70%;
+}
+.bottom-container {
+  background-color: #5763a5;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+@media screen and (max-width: 768px) {
+  .bottom-container {
+    min-width: 330px;
+  }
+}
+.count-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.count-container {
+  display: flex;
+}
+.count {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .count {
+    font-size: 10px;
+  }
+}
+.span {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: #c3caea 1px solid;
+  font-size: 13px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .span {
+    font-size: 10px;
+  }
+}
+.search-container {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+}
+.search-icon {
+  width: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  .search-icon {
+    width: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.search-input {
+  height: 30px;
+  width: 200px;
+  outline: none;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .search-input {
+    height: 20px;
+    width: 100px;
+    font-size: 10px;
+  }
+}
+.hr-line {
+  border: #ffffff 1px solid;
+}
+.show-password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+@media screen and (max-width: 768px) {
+  .checkbox {
+    height: 15px;
+    width: 15px;
+  }
+}
+.label {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+@media screen and (max-width: 768px) {
+  .label {
+    font-size: 12px;
+  }
+}
+.no-passwords-img {
+  width: 75%;
+  padding-left: 240px;
+}
+.passwords-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.noPassword-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.noPassword-img {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .noPassword-img {
+    width: 30%;
+    padding-top: 20px;
+  }
+}
+.emptyPasswords {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .emptyPasswords {
+    font-size: 15px;
+  }
+}
